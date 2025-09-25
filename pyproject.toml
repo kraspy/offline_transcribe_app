@@ -12,6 +12,7 @@ dependencies = [
     "librosa>=0.11.0",
     "nemo-toolkit[asr]>=2.4.0",
     "openai-whisper>=20250625",
+    "orjson>=3.11.3",
     "pydub>=0.25.1",
     "pytest>=8.4.1",
     "python-dotenv>=1.1.1",
