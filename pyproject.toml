@@ -14,6 +14,7 @@ dependencies = [
     "pydub>=0.25.1",
     "pytest>=8.4.1",
     "python-dotenv>=1.1.1",
+    "rich>=14.1.0",
     "sqlalchemy>=2.0.43",
     "streamlit>=1.49.1",
     "whisperx>=3.3.1",
