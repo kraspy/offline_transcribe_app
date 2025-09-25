@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "click>=8.2.1",
     "fastapi>=0.116.1",
     "faster-whisper>=1.1.0",
     "gigaam>=0.1.0",

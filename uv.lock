@@ -1639,6 +1639,7 @@ name = "offline-transcribe-app"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "click" },
     { name = "fastapi" },
     { name = "faster-whisper" },
     { name = "gigaam" },
@@ -1661,6 +1662,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "click", specifier = ">=8.2.1" },
     { name = "fastapi", specifier = ">=0.116.1" },
     { name = "faster-whisper", specifier = ">=1.1.0" },
     { name = "gigaam", specifier = ">=0.1.0" },
